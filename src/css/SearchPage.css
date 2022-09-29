@@ -1,0 +1,107 @@
+.search-page__header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+  align-items: flex-start;
+  padding: 30px;
+  border-bottom: solid 1px lightgray;
+}
+
+.search-page__logo {
+  object-fit: contain;
+  height: 50px;
+  margin-right: 50px;
+}
+
+.search-page__header--body > .search > .search__input {
+  margin-top: 0;
+  width: unset;
+  max-width: unset;
+  margin: unset;
+}
+
+.search-page__options {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.search-page__options a {
+  text-decoration: none;
+  color: gray;
+}
+.search-page__options--left,
+.search-page__options--right {
+  display: flex;
+}
+
+.search-page__options--right {
+  margin-left: 80px;
+}
+
+.search-page__option {
+  /* display: flex;
+  align-items: center; */
+  margin-right: 20px;
+}
+
+.search-page__option a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MuiSvgIcon-root {
+  margin-right: 5px;
+}
+
+.search-page__results {
+  max-width: 650px;
+  margin-left: 240px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.search-page__result--count {
+  font-size: 14px;
+  color: #70757a;
+}
+.search-page__result {
+  margin: 40px 0;
+}
+
+.search-page__result--title {
+  text-decoration: none;
+}
+
+.search-page__result--title > h2 {
+  font-weight: 500;
+}
+
+.search-page__result--anchor {
+  color: #70757a;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.search-page__result--anchor-wrapper:hover .search-page__result--title {
+  text-decoration: underline;
+}
+.search-page__result--snippet {
+  margin-top: 10px;
+}
+
+.search-page__result--span {
+  font-size: 10px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.search-page__result--img {
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
